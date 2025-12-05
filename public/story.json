@@ -1,0 +1,40 @@
+{
+  "start": {
+    "title": "A New Start",
+    "text": "You walk into your CS class with excitement and nerves.",
+    "choices": [
+      { "text": "Share your journey", "next": "confident" },
+      { "text": "Stay quiet and observe", "next": "quiet" }
+    ]
+  },
+  "confident": {
+    "title": "Your Voice Matters",
+    "text": "You talk about resilience, being an immigrant, and building space for others.",
+    "choices": [
+      { "text": "Speak on tech dreams", "next": "tech" },
+      { "text": "Wrap up there", "next": "end" }
+    ]
+  },
+  "quiet": {
+    "title": "Listening First",
+    "text": "You listen deeply. You realize growth isn't linear.",
+    "choices": [
+      { "text": "Now share", "next": "tech" },
+      { "text": "Keep absorbing", "next": "end" }
+    ]
+  },
+  "tech": {
+    "title": "Your Purpose",
+    "text": "You talk about building tools and games that empower people to learn, feel seen, and grow.",
+    "choices": [
+      { "text": "Finish strong", "next": "end" }
+    ]
+  },
+  "end": {
+    "title": "A Strong Start",
+    "text": "You feel seen. The journey continues.",
+    "choices": [
+      { "text": "Play Again", "next": "start" }
+    ]
+  }
+}
