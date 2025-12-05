@@ -1,23 +1,22 @@
 # Checkpoint — Narrative Prototype
 
-A short, branching narrative experience that demonstrates interactive storytelling, player choice, and lightweight game logic.
+A concise branching narrative prototype demonstrating player agency, choice-driven flow, and lightweight game logic.
 
 ## Live Demo
 https://chipper-frangipane-ee6275.netlify.app
 
 ## How It Works
-- Narrative content stored in `story.json`
-- `game.js` renders scenes and handles branching
-- Runs entirely client-side
+- Narrative content defined in `story.json`
+- `game.js` renders scenes and handles branching transitions
+- Choices dynamically update state and move the story forward
+- Fully client-side; no backend dependencies
 
 ## Tech Stack
 - HTML, CSS, JavaScript
 - Netlify (deployment)
 
 ## Local Run
+```bash
 npm start
 
-## Focus
-- Branching logic
-- Player agency
-- Fast iteration narrative prototyping
+
